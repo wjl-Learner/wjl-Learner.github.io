@@ -1,0 +1,184 @@
+body {
+    font-family: "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+    background-color: #ffffff;
+
+
+}
+
+
+.navbar-default {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.25)
+}
+
+.navbar-default .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: #40D2b1;
+    height: 70px;
+    line-height: 35px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #666;
+    font-size: 16px;
+    height: 70px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    border-color: #40d2b1;
+    background-color: #40d2b1;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #1d8c73;
+}
+
+.navbar-toggle {
+    margin-top: 13px;
+}
+
+#home {
+    background: url('./image/bg.jpg');
+
+    background-size: cover;
+    color: #fff;
+    margin-top: 70px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.lvjing {
+    width: 100%;
+    height: 100%;
+    background: rgba(49, 51, 43, 0.65);
+    padding: 90px 0;
+}
+
+
+#home h1 {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#home h2 {
+    margin-top: 4px;
+    margin-left: -4px;
+    padding: 0;
+    text-align: start;
+}
+
+#home p {
+    font-weight: 400;
+    line-height: 35px;
+    font-size: 17px;
+    margin-bottom: 88px;
+
+}
+
+
+#home img {
+    
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
+    
+}
+
+
+.col-md-12{
+    margin-top:50px ;  
+}
+
+
+/* bbs */
+#bbs{
+    padding: 70px 0 ;
+    text-align: center;
+    background: #f7f7f7;
+    
+}
+#bbs .col-md-4{
+    padding: 5px;
+}
+#bbs .col-md-4:hover{
+    background: #f2f2f2;
+    box-shadow: 1px 1px 4px #ccc;
+}
+
+
+#bbs  a{
+    text-decoration: none;
+    color: #666;
+}
+
+#bbs img{
+   
+    margin: 0 auto;
+    
+}
+#bbs h1{
+    margin-bottom:40px;
+    font-weight: bold;
+    
+     
+}
+
+#bbs h3{
+    font-weight: bold;
+    color: #666;
+}
+#bbs h4{
+    font-weight: bold;
+    color: #666;
+}
+
+/* contact */
+#contact{
+    background: url('image/导航.png');
+    background-size: cover;
+    color: #fff;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    
+}
+#contact h2{
+    font-weight: bold;
+    margin-bottom: 52px;
+}
+#contact p{
+    line-height: 25px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+#contact .form-control{
+    border: none;
+   
+    height: 50px;
+    margin-bottom: 20px;
+    
+}
+#contact .col-md-12{
+    margin-top: 10px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+
+
+
+
