@@ -1,0 +1,22 @@
+.info{
+    position: relative;
+    top: -50%;
+    display: none;
+}
+.info-text{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    display: none;
+}
+.Head img{
+    border-radius: 50% ;
+}
+.info-text{
+    color: black;
+    width: 800px;
+    height: 300px;
+    text-align: start;
+}
+
+
