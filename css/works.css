@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap');
+
+*{
+	box-sizing: border-box;
+	
+}
+.works{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	min-height: 100vh;
+	position: absolute;
+	top: -40%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.works .container{
+	max-width: 1000px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	transition: 0.5s;
+}
+.works .container .card{
+	position: relative;
+	width: 250px;
+	height:550px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.5s;
+}
+.works .container:hover .card{
+	filter: blur(5px);
+	transform: scale(.7);
+}
+.works .container .card:hover{
+	filter: blur(0px);
+	transform: scale(1);
+}
+.works .container .card:before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: 0.5s;
+}
+.works .container .card:hover:before{
+	background: #000;
+	transform: scaleY(1.15);
+	box-shadow: 0 5px 15px rgba(0,0,0,.2);
+}
+.works .container .card .content{
+	text-align: center;
+	z-index: 2;
+	padding: 0 20px;
+	transition: 0.5s;
+}
+.works .container .card:hover .content{
+	color: #fff;
+}
+.works .container .card .content h2{
+	font-size: 3em;
+}
+.works .container .card .content p{
+	font-size: 1em;
+	letter-spacing: 3px;
+	text-align: start;
+}
+.works .container .card .content a{
+	display: inline-block;
+	margin-top: 15px;
+	padding: 5px 10px;
+	background: #262626;
+	color: #fff;
+	text-decoration: none;
+}
+.works .container .card:hover .content a{
+	background: #2196f3;
+	
+}
+
